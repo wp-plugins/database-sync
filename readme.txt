@@ -3,7 +3,7 @@ Contributors: tamlyn
 Tags: database, db, sync, synch, copy, deploy, stage
 Requires at least: 3.0
 Tested up to: 3.4
-Stable tag: trunk
+Stable tag: 0.3
 
 Sync databases across servers with a single click.
 
@@ -40,6 +40,11 @@ See Installation instructions.
 You are now set up to pull from and push to the main server.
 
 == ChangeLog ==
+
+= Version 0.3 =
+
+* Use `$wpdb` instead of deprecated `mysqli` extension. Thanks to Simon East.
+* Fixed manual dump download filename. Thanks to Ronald Mansveld.
 
 = Version 0.2 =
 
